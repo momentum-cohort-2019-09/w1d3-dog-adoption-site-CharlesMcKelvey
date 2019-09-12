@@ -13,7 +13,7 @@ body {
 }
 
 .grey-column1 {
-    background-color: rgb(199, 189, 189);
+    background-color: rgb(242, 242, 242);
     order: 1;
     width: 10%;
     height: auto;
@@ -21,7 +21,7 @@ body {
 }
 
 .grey-column2 {
-    background-color: grey;
+    background-color: rgb(242, 242, 242)	;
     order: 3;
     width: 10%;
     height: auto;
@@ -90,7 +90,7 @@ div > p {
 
 .adoptees-card {
     min-width: 200px;
-    max-width: 400px;
+    max-width: 300px;
     height: 300px;
     border-radius: 10px 10px 10px 10px;
     margin-top: 10px;
@@ -116,8 +116,7 @@ div > p {
 }
 
 .hvs-img {
-    width: 400px;
-    height: 300px;
+    height: 200px;
 }
 
 footer {
@@ -132,11 +131,11 @@ footer {
     background-position: center;
     background-size: cover;
     text-align: center;
-    line-height: 400px;
+    line-height: 300px;
     font-size: 40px;
     color: white;
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
 
 .volunteer {
@@ -144,11 +143,11 @@ footer {
     background-position: center;
     background-size: cover;
     text-align: center;
-    line-height: 400px;
+    line-height: 300px;
     font-size: 40px;
     color: white;
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
 
 .location {
@@ -156,9 +155,9 @@ footer {
     background-position: center;
     background-size: cover;
     text-align: center;
-    line-height: 400px;
+    line-height: 300px;
     font-size: 40px;
     color: white;
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
