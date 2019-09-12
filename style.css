@@ -1,0 +1,160 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, "Open Sans";
+}
+
+body {
+    display: flex; 
+    width: 100%;
+    flex-direction: row;
+    flex-shrink: 1;
+}
+
+.grey-column1 {
+    background-color: grey;
+    order: 1;
+    width: 10%;
+    height: 100%;
+    
+}
+
+.grey-column2 {
+    background-color: grey;
+    order: 3;
+    width: 10%;
+    height: 100%;
+}
+
+main {
+    order: 2;
+    width: 80%;
+}
+
+header {
+    border-bottom: 2px solid rgb(87, 238, 238);
+    background-color: rgb(63, 63, 212);
+    padding: 30px 50px 30px 50px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+div > p {
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    padding: 20px 60px 40px 40px;
+    width: 80%;
+    order: 2
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-area {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+}
+
+.option-title {
+    padding: 20px 0 15px 20px;
+}
+
+.option-card {
+    align-content: flex-start;
+    width: 200px;
+    list-style: none;
+}
+
+.adoptees {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.adoptees-card {
+    min-width: 200px;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+}
+
+.tags {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tags p {
+    border-radius: 25%; 
+    background-color: lightblue;
+    width: fit-content;
+    padding: 2px;
+    margin: 3px;
+    flex: 0 0 auto;
+}
+
+.doggos {
+    height: 200px;
+}
+
+.hvs-img {
+    width: 400px;
+    height: 300px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    width: 100%
+}
+
+.donate { 
+    background: linear-gradient(rgba(163, 167, 237, 0.5), rgba(163, 167, 237, 0.5)), url('starter_files/images/donate.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    line-height: 400px;
+    font-size: 40px;
+    color: white;
+    width: 400px;
+    height: 400px;
+}
+
+.volunteer {
+    background: linear-gradient(rgba(163, 167, 237, 0.5), rgba(163, 167, 237, 0.5)), url('starter_files/images/volunteer.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    line-height: 400px;
+    font-size: 40px;
+    color: white;
+    width: 400px;
+    height: 400px;
+}
+
+.location {
+    background: linear-gradient(rgba(163, 167, 237, 0.5), rgba(163, 167, 237, 0.5)), url('starter_files/images/location.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    line-height: 400px;
+    font-size: 40px;
+    color: white;
+    width: 400px;
+    height: 400px;
+}
