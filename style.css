@@ -33,8 +33,8 @@ main {
 }
 
 header {
-    border-bottom: 2px solid rgb(87, 238, 238);
-    background-color: rgb(63, 63, 212);
+    border-bottom: 2px groove rgb(87, 238, 238);
+    background-color: rgb(25, 62, 115);
     padding: 30px 50px 30px 50px;
 }
 
@@ -67,7 +67,7 @@ div > p {
 .form-area {
     display: flex;
     flex-wrap: wrap;
-    background-color: lightgrey;
+    background-color: rgb(240, 237, 238);
 }
 
 .option-title {
