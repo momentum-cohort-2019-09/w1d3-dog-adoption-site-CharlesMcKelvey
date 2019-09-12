@@ -62,12 +62,14 @@ div > p {
 .form-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .form-area {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(240, 237, 238);
+    justify-content: space-between;
 }
 
 .option-title {
@@ -85,14 +87,13 @@ div > p {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 30px;
 }
 
 .adoptees-card {
     min-width: 200px;
     max-width: 300px;
-    height: 300px;
     border-radius: 10px 10px 10px 10px;
     margin-top: 10px;
 }
@@ -104,16 +105,15 @@ div > p {
 }
 
 .tags p {
-    border-radius: 40px; 
+    border-radius: 30px; 
     background-color: lightblue;
-    width: fit-content;
-    padding: 4px;
+    padding: 0 4px;
     margin: 3px;
     flex: 0 0 auto;
 }
 
 .doggos {
-    height: 200px;
+    width: 100%;
 }
 
 .hvs-img {
