@@ -16,15 +16,12 @@ body {
     background-color: rgb(242, 242, 242);
     order: 1;
     width: 10%;
-    height: auto;
-    
 }
 
 .grey-column2 {
     background-color: rgb(242, 242, 242)	;
     order: 3;
     width: 10%;
-    height: auto;
 }
 
 main {
